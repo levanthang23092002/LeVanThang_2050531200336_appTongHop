@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ED000000">
+
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+
+                    android:src="@drawable/hinhnen"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:cardCornerRadius="10dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Down"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#18EA0D"
+            android:text="NHẬN"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.484" />
+
+        <ImageView
+            android:id="@+id/image_rate_ct"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/ratio_ct"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_below="@+id/image_rate_ct"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp" />
+
+
+        <TextView
+
+            android:id="@+id/txtname"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:text="LÊ VĂN THẮNG"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            tools:ignore="UnknownIdInLayout" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtname"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="3dp"
+            android:text="thắng"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/type"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:background="#51FFFFFF" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="1dp"
+            android:layout_height="65dp"
+            android:layout_below="@+id/type"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@+id/txtxh"
+            android:background="#51FFFFFF" />
+        <View
+            android:id="@+id/view3"
+            android:layout_width="1dp"
+            android:layout_height="65dp"
+            android:layout_below="@+id/type"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@+id/year_ct"
+            android:background="#51FFFFFF" />
+
+
+        <TextView
+            android:id="@+id/amount_rate_ct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view1"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="5dp"
+            android:text="182"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtxh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/amount_rate_ct"
+            android:text="xếp hạng"
+            android:textColor="#ffffff"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/txtold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/view2"
+            android:text="year old"
+            android:textColor="#ffffff"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/txtlove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view1"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/view3"
+            android:text="favourite"
+            android:textColor="#ffffff"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/ratio_ct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/amount_rate_ct"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:text="4.5"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/year_ct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/amount_rate_ct"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/view2"
+            android:text="4"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/love_ct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/amount_rate_ct"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/view3"
+            android:text="4"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/year_ct"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/view2"
+            android:text="year"
+            android:textColor="#ffffff"
+            android:textSize="19dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/year_ct"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/view3"
+            android:text="person"
+            android:textColor="#ffffff"
+            android:textSize="19dp" />
+
+
+                    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/run"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:max="100"
+        android:progress="0"
+        android:progressBackgroundTint="#F3EAEA"
+        android:progressTint="#4BFF22"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp">
+    <RelativeLayout
+        android:id="@+id/backgroud"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/image2" />
+        <ImageView
+            android:id="@+id/image_rate"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:src="@drawable/hai_sao"
+            android:background="#ffffff"
+            android:layout_below="@+id/rate"
+            android:layout_marginLeft="30dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradients" />
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="the  Winner time"
+            android:textColor="#ffffff"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:text="30"
+            android:textColor="#ffffff"
+            android:textSize="24dp"
+            android:textStyle="italic" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@+id/year"
+            android:text="year"
+            android:textColor="#ffffff"
+            android:textSize="24dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txttype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="170dp"
+            android:text="Type :"
+            android:textColor="#ffffff"
+            android:textSize="24dp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="170dp"
+            android:text="Tactic "
+            android:layout_toRightOf="@+id/txttype"
+            android:textColor="#ffffff"
+            android:textSize="24dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="270dp"
+            android:text="Rate"
+            android:textColor="#ffffff"
+            android:textSize="24dp"
+            android:textStyle="italic" />
+
+
+        <CheckBox
+            android:id="@+id/love"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="110dp"
+            android:layout_marginRight="30dp"
+            android:button="@drawable/tim"
+            android:buttonTint="#F80202"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <CheckBox
+            android:id="@+id/rate1"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="330dp"
+            android:button="@drawable/rate"
+            />
+        <CheckBox
+            android:id="@+id/rate2"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="330dp"
+            android:button="@drawable/rate"
+            android:layout_toRightOf="@+id/rate1"
+            />
+
+        <CheckBox
+            android:id="@+id/rate3"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="330dp"
+            android:layout_toRightOf="@+id/rate2"
+            android:button="@drawable/rate" />
+        <CheckBox
+            android:id="@+id/rate4"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="330dp"
+            android:button="@drawable/rate"
+            android:layout_toRightOf="@+id/rate3"
+            />
+        <CheckBox
+            android:id="@+id/rate5"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="330dp"
+            android:button="@drawable/rate"
+            android:layout_toRightOf="@+id/rate4"
+            />
+
+        <TextView
+            android:id="@+id/amount_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="275dp"
+            android:layout_toRightOf="@+id/rate"
+            android:text="20N"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/ratio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="305dp"
+            android:layout_toRightOf="@+id/image_rate"
+            android:text="4.5"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="20N"
+            android:layout_marginRight="30dp"
+            android:layout_below="@+id/love"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#ffffff"
+            android:textStyle="italic"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

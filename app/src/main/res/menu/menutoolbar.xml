@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+        <item
+
+            app:showAsAction="always"
+            android:icon="@drawable/n"
+            android:title="profile"
+            android:id="@+id/toolbarprofile">
+        </item>
+
+        <item
+            app:showAsAction="always"
+            android:icon="@drawable/chuon"
+            android:title="listview"
+            android:id="@+id/toolbarlistview">
+
+        </item>
+        <item android:id="@+id/btnprofile"
+            android:title="Trang cá nhân"
+            android:icon="@drawable/person"
+            >
+
+        </item>
+        <item android:id="@+id/btnlistview"
+            android:title="Thông báo"
+            android:icon="@drawable/chuon">
+
+        </item>
+        <item android:id="@+id/btndangxuat"
+            android:title="Đăng Xuất"
+            android:icon="@drawable/back">
+
+        </item>
+
+</menu>
